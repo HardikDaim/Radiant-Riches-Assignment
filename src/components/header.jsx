@@ -4,9 +4,9 @@ export default function Header() {
   return (
     <>
       <div className="py-6 bg-gray-800 ">
-        <div className="flex flex-row justify-center gap-x-6 items-center">
+        <div className="flex flex-row justify-center gap-x-0 md:gap-x-6 items-center">
           <div className="relative">
-            <input className="rounded-md pl-8" type="search" />
+            <input className="rounded-md pl-8 w-20 md:w-full" type="search" />
             <svg
               width="24"
               height="24"
@@ -30,9 +30,15 @@ export default function Header() {
             </svg>
           </div>
 
-          <div className="text-white px-4">Website Builders</div>
-          <div className="text-white px-4">Categories</div>
-          <div className="text-white px-4">Today's Deals</div>
+          <div className="text-white px-2 md:px-4 text-xs md:text-lg">
+            Website Builders
+          </div>
+          <div className="text-white px-2 md:px-4 text-xs md:text-lg ">
+            Categories
+          </div>
+          <div className="text-white px-2 md:px-4 text-xs md:text-lg ">
+            Today's Deals
+          </div>
         </div>
       </div>
     </>

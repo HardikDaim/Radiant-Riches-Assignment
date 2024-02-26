@@ -5,13 +5,13 @@ export default function TopMenu() {
     <>
       <div className=" mx-auto max-w-6xl ">
         <div className="flex justify-start">
-          <div className="mt-8 mb-6 text-7xl text-gray-800 font-extralight">
+          <div className="mt-8 mb-6 text-2xl md:text-4xl font-normal lg:font-light lg:text-7xl text-gray-800 font-extralight">
             Best Website builders in the US
           </div>
         </div>
         <hr />
         <div className="flex flex-row gap-x-4 my-2">
-          <div className="flex flex-row items-center gap-x-2 text-gray-600">
+          <div className="flex flex-row items-center gap-x-2 text-gray-600 text-sm md:text-md">
             <span>
               <svg
                 width="20"
@@ -36,7 +36,7 @@ export default function TopMenu() {
             </span>
             Last Updated - February 22, 2020
           </div>
-          <div className="flex flex-row items-center gap-x-2 text-gray-600">
+          <div className="flex flex-row items-center gap-x-2 text-gray-600 text-sm md:text-md">
             <span>
               <svg
                 width="20"
@@ -73,7 +73,7 @@ export default function TopMenu() {
             </span>
             Advertising Disclosure
           </div>
-          <div className="flex flex-row gap-x-2 text-gray-600 ml-auto">
+          <div className="flex flex-row gap-x-2 text-gray-600 ml-auto text-sm md:text-md">
             Top relevant{" "}
             <span>
               <svg
@@ -94,24 +94,46 @@ export default function TopMenu() {
           </div>
         </div>
         <hr />
-        <div className="flex flex-row gap-x-4">
-          <div className="m-4 text-gray-600">Tools</div>
-          <div className="m-4 text-gray-600">AWS Builder</div>
-          <div className="m-4 text-gray-600">Start Build</div>
-          <div className="m-4 text-gray-600">Build Supplies</div>
-          <div className="m-4 text-gray-600">Tooling</div>
-          <div className="m-4 text-gray-600">BlueHosting</div>
+        <div className="flex flex-row gap-x-0 md:gap-x-4">
+          <div className="m-2 md:m-4 text-xs md:text-xl text-gray-600">
+            Tools
+          </div>
+          <div className="m-2 md:m-4 text-xs md:text-xl text-gray-600">
+            AWS Builder
+          </div>
+          <div className="m-2 md:m-4 text-xs md:text-xl text-gray-600">
+            Start Build
+          </div>
+          <div className="m-2 md:m-4 text-xs md:text-xl text-gray-600">
+            Build Supplies
+          </div>
+          <div className="m-2 md:m-4 text-xs md:text-xl text-gray-600">
+            Tooling
+          </div>
+          <div className="m-2 md:m-4 text-xs md:text-xl text-gray-600">
+            BlueHosting
+          </div>
         </div>
         <div className="flex flex-row gap-x-2 mb-4">
-          <div className="text-gray-500">Home </div>
-          <div className="text-gray-600 font-bold">{">"}</div>
-          <div className="text-gray-500">Hosting for all</div>
-          <div className="text-gray-600 font-bold">{">"}</div>
-          <div className="text-gray-500">Hosting </div>
-          <div className="text-gray-600 font-bold">{">"}</div>
-          <div className="text-gray-500">Hosting6 </div>
-          <div className="text-gray-600 font-bold">{">"}</div>
-          <div className="text-gray-500">Hosting5</div>
+          <div className="text-sm md:text-lg text-gray-500">Home </div>
+          <div className="text-sm md:text-lg text-gray-600 font-bold">
+            {">"}
+          </div>
+          <div className="text-sm md:text-lg text-gray-500">
+            Hosting for all
+          </div>
+          <div className="text-sm md:text-lg text-gray-600 font-bold">
+            {">"}
+          </div>
+          <div className="text-sm md:text-lg text-gray-500">Hosting </div>
+          <div className="text-sm md:text-lg text-gray-600 font-bold">
+            {">"}
+          </div>
+          <div className="text-sm md:text-lg text-gray-500">Hosting6 </div>
+          <div className="text-sm md:text-lg text-gray-600 font-bold">
+            {">"}
+          </div>
+          <div className="text-sm md:text-lg text-gray-500">Hosting5</div>
         </div>
       </div>
     </>
